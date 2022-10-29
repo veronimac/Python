@@ -1,4 +1,3 @@
-s1 = 'Гагарин Юрий Алексеевич'[2:5:]
-split
-+'.'
-print(s1)
+MyName = input()
+surname,name,fatherName = MyName.split(' ')
+print(surname,name[0]+'.'+fatherName[0]+'.')
